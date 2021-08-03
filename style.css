@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   background: black;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+   
+}
+button{
+    padding:0.5% 1.5%;
+    background: none;
+    font-size:18px;
+    color:coral;
+    border:1px solid coral;
+    transition:all;
+    transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition-delay: 3ms;
+
+}
+
+button:hover{
+    transform:translateY(-3%);
+    border:1px solid chartreuse;
+    box-shadow: 0px 1px 5px chartreuse;
+    color:white;
+}
